@@ -3,10 +3,10 @@ $font-family-sans-serif: 'Red Hat Display', sans-serif;
 $card-border-radius:1rem;
 $primary:hsl(245, 75%, 52%);
 $body-bg:hsl(225, 100%, 94%);
-$light:hsl(225, 100%, 98%);
 
+$secondary:hsl(225, 100%, 98%);;
 
-@import"../../node_modules/bootstrap/scss/bootstrap.scss";
+@import"../node_modules/bootstrap/scss/bootstrap.scss";
 
 body{
 	background-image: url("../images/pattern-background-desktop.svg");
@@ -16,3 +16,10 @@ body{
 .card-div{
 	border-radius: 1rem;
 }
+.hov{
+	
+}
+.hov:hover{
+	color:white  !important;
+}
+
